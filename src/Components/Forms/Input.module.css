@@ -1,0 +1,29 @@
+.input_div input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.input_div input:focus{
+    outline: 1px solid #ccc;
+}
+
+.input_div label{
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.input_div{
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+}
+
+

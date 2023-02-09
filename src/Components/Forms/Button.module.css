@@ -1,0 +1,27 @@
+.button_div{
+    margin: 10px;
+}
+
+.button_div button{
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: rgb(240, 238, 138);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px #999;
+}
+
+.button_div button:hover{
+    background-color: rgb(240, 237, 64);
+}
+
+.button_div button:active{
+    background-color:rgb(240, 237, 64);
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
